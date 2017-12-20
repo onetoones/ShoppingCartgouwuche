@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chenshuai.bwie.com.shoppingcart.view.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:textSize="22sp"
+        android:text="登录"
+        android:id="@+id/textView" />
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:layout_below="@+id/et_phone"
+        android:layout_alignLeft="@+id/et_phone"
+        android:layout_alignStart="@+id/et_phone"
+        android:layout_marginTop="53dp" />
+    <Button
+        android:id="@+id/bt_dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:layout_alignBaseline="@+id/bt_zc"
+        android:layout_alignBottom="@+id/bt_zc"
+        android:layout_alignLeft="@+id/et_pwd"
+        android:layout_alignStart="@+id/et_pwd"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp" />
+    <Button
+        android:id="@+id/bt_zc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_below="@+id/et_pwd"
+        android:layout_alignRight="@+id/et_pwd"
+        android:layout_alignEnd="@+id/et_pwd"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginTop="34dp" />
+</RelativeLayout>
